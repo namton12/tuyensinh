@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Đăng nhập</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          
+            <form class="register-form">
+                <input type="text" name="" placeholder="Tên đăng nhập">
+                <input type="text" name="" placeholder="Mật khẩu">
+                <input type="text" name="" placeholder="email">
+                <button>Create</button>
+                <p class="message">Already  Registered? <a href="#">Login</a></p>
+            </form>
+             
+            <font class="login-form"></font>
+            <input type="text" name="" placeholder="Tên đăng nhập">
+            <input type="text" name="" placeholder="Mật khẩu">
+            <button>Login</button>
+            <p class="message">Not Registered? <a href="#">Register</a></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     
+    <script>
+    $('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"} , "slow");  
+    });
+    </script>
+
+
+</body>
+</html>
